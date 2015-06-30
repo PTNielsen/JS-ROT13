@@ -38,5 +38,5 @@ var translated = $(".translate").on("click", function(){
     console.log(userInput)
     $("#inputText").val("")
     var whatever = userInput.split("").map(translateCharacter).join("")
-    $("#displayText").append(whatever)
+    $("#displayText").text(whatever)
 });
